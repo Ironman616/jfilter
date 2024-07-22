@@ -30,8 +30,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🔍 Gʀᴏᴜᴘ', url="https://t.me/+JPjF6TKDQEBhMTk1"),
-                    InlineKeyboardButton('🎬 channel', url='https://t.me/MoviesU2')
+                    InlineKeyboardButton('🔍 Gʀᴏᴜᴘ', url="https://t.me/+Yy7_1c-WQitmZTM1"),
+                    InlineKeyboardButton('🎬 channel', url='https://t.me/Movie_loverzz')
                 ],[
                     InlineKeyboardButton('🍀 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🍀', callback_data='CHNL_LNK')
                   ]]
@@ -50,7 +50,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('💸 Eᴀʀɴ Mᴏɴᴇʏ', callback_data="shortlink_info"),
+                    InlineKeyboardButton('💰 ᴅᴏɴᴀᴛᴇ ᴜꜱ 💰', callback_data="TAMIL_INFO"),
                     InlineKeyboardButton('🍻 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
                 ],[
                     InlineKeyboardButton('⚠️ Hᴇʟᴘ', callback_data='help'),
@@ -80,6 +80,9 @@ async def start(client, message):
             [
                 InlineKeyboardButton("🍀 Jᴏɪɴ Oᴜʀ Cʜᴀɴɴᴇʟ 🍀", url=invite_link.invite_link)
             ],[
+                InlineKeyboardButton("🍀 FLASH DEALS & OFFERS 🍀", url=" https://t.me/+s6UfAlzlpk1hYmJl")
+            ],[
+            
                 InlineKeyboardButton('🤔 Why Iam Join🤔', callback_data='sinfo')
             ]
         ]
@@ -102,7 +105,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('💸 Eᴀʀɴ Mᴏɴᴇʏ', callback_data="shortlink_info"),
+                    InlineKeyboardButton('💰 ᴅᴏɴᴀᴛᴇ ᴜꜱ 💰', callback_data="TAMIL_INFO"),
                     InlineKeyboardButton('🍻 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
                 ],[
                     InlineKeyboardButton('⚠️ Hᴇʟᴘ', callback_data='help'),
