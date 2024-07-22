@@ -1638,11 +1638,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             #InlineKeyboardButton("English", callback_data="english_info"),
            # InlineKeyboardButton("Hindi", callback_data="hindi_info")
         ], [
-            $InlineKeyboardButton("Malayalam", callback_data="malayalam_info"),
+            #$InlineKeyboardButton("Malayalam", callback_data="malayalam_info"),
             #InlineKeyboardButton("Urdu", callback_data="urdu_info"),
             #InlineKeyboardButton("Bangla", callback_data="bangladesh_info")
         ], [
-           $ InlineKeyboardButton("Telugu", callback_data="telugu_info"),
+           #InlineKeyboardButton("Telugu", callback_data="telugu_info"),
            # InlineKeyboardButton("Kannada", callback_data="kannada_info"),
             #InlineKeyboardButton("Gujarati", callback_data="gujarati_info"),
             InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start")
