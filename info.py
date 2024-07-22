@@ -62,9 +62,9 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+LKd-5IX14s5hYjI9')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/MoviesU2')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/MoviesU2')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+Yy7_1c-WQitmZTM1')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Movie_loverzz')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Movie_loverzz')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL','-1002047120608'))
@@ -105,8 +105,8 @@ else:
     ON_HEROKU = False
 BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
 FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else (APP_NAME or '') + '.herokuapp.com'
-URL = "https://moviesuniverse-da0aef83f7bf.herokuapp.com".format(FQDN) if ON_HEROKU or NO_PORT else \
-    "https://moviesuniverse-da0aef83f7bf.herokuapp.com/".format(FQDN, PORT)
+URL = "https://movies-da0aef83f7bf.herokuapp.com".format(FQDN) if ON_HEROKU or NO_PORT else \
+    "https://movies-da0aef83f7bf.herokuapp.com/".format(FQDN, PORT)
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
 SESSION_NAME = str(environ.get('SESSION_NAME', 'LazyBot'))
