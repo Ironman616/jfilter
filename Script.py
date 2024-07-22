@@ -4,8 +4,7 @@
 
 
 class script(object):
-    START_TXT = """<b><blockquote>Hᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
-    ɪ ᴀᴍ ᴘᴏᴡᴇʀ ғᴜʟʟ Movie Search Bot And Advanced Online Watching and Fast Download BOT. But No Theatre Prints Available in MY DB. So Dont Search Theatre Prints 🤷‍♂️ </b>"""
+    START_TXT = """<b><blockquote>Hᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote> ɪ ᴀᴍ ᴘᴏᴡᴇʀ ғᴜʟʟ Movie Search Bot And Advanced Online Watching and Fast Download BOT. But No Theatre Prints 🚫 Available in MY DB. So Dont Search Theatre Prints 🤷‍♂️ </b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
@@ -439,6 +438,7 @@ Vere Channels Laga Files Ki Shortlinks And Subscriptions Scheme Ithey Mana Chann
 
 𝖸𝗈𝗎 𝖢𝖺𝗇 𝖣𝗈𝗇𝖺𝗍𝖾 𝖳𝗁𝗋𝗈𝗎𝗀𝗁 𝖮𝗎𝗋 𝖴𝖯𝖨 𝖨𝖣 👇
 𝗨𝗣𝗜 𝗜𝗗:- <code> movieloverz11220@okaxis </code>
+
 QR CODE:- 👉SCAN QR CODE (https://graph.org/file/1e1e883ef2309c91aad77.jpg) (Open Link,Save QR and Pay)
   
 𝗧𝗛𝗔𝗡𝗞𝗦 𝗜𝗡 𝗔𝗗𝗩𝗔𝗡𝗖𝗘, 𝗬𝗢𝗨𝗥 𝗖𝗢𝗡𝗧𝗥𝗜𝗕𝗨𝗧𝗜𝗢𝗡𝗦 𝗥𝗘𝗔𝗟𝗟𝗬 𝗛𝗘𝗟𝗣𝗙𝗨𝗟𝗟 𝗙𝗢𝗥 𝗨𝗦🤍. </b>..."""
