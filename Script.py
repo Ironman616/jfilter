@@ -5,7 +5,7 @@
 
 class script(object):
     START_TXT = """<b><blockquote>Hᴇʟʟᴏ {},
-    ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote> ɪ ᴀᴍ ᴘᴏᴡᴇʀ ғᴜʟʟ Movie Search Bot And Advanced Online Watching and Fast Download BOT. But No Theatre Prints🚫 Available in MY DB. So Dont Search Theatre Prints 🤷‍♂️ </b>"""
+ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote> ɪ ᴀᴍ ᴘᴏᴡᴇʀ ғᴜʟʟ Mᴏᴠɪᴇ Sᴇᴀʀᴄʜ ʙᴏᴛ ᴀɴᴅ ᴀᴅᴠᴀɴᴄᴇᴅ ᴏɴʟɪɴᴇ ᴡᴀᴛᴄʜɪɴɢ ᴀɴᴅ ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ ʙᴏᴛ. ʙᴜᴛ ɴᴏ ᴛʜᴇᴀᴛʀᴇ ᴘʀɪɴᴛꜱ🚫 ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴍʏ ᴅʙ. ꜱᴏ ᴅᴏɴᴛ ꜱᴇᴀʀᴄʜ ᴛʜᴇᴀᴛʀᴇ ᴘʀɪɴᴛꜱ 🤷‍♂️ </b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
