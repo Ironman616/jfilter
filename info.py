@@ -20,14 +20,14 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '16013849'))
 API_HASH = environ.get('API_HASH', 'c8686adc1a0c7cd17f2201c40123ce91')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6942886220:AAEnUFFBbHfa_szP8bjnSbwkwgy6sfOJRNA")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6942886220:AAFoBXWCLymc28olggObqALwaqVEaMqB-Vk")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 PICS = (environ.get('PICS', 'https://graph.org/file/a319f6b9ce3b993c6e22f.jpg')).split()#SAMPLE PIC
-NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/46443096bc6895c74a716.jpg")
+NOR_IMG = environ.get("NOR_IMG", "https://envs.sh/jQQ.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/451f038b4e7c2ddd10dc0.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/5e2d4418525832bc9a1b9.jpg")
 PICS_JOIN = (environ.get('PICS_JOIN', 'https://graph.org/file/a319f6b9ce3b993c6e22f.jpg')).split()
@@ -62,7 +62,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+Yy7_1c-WQitmZTM1')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+7hhFYFo61m5hNzU9')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Movie_loverzz')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Movie_loverzz')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
@@ -81,7 +81,7 @@ LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False")
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1001522283262')).split()]
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
@@ -105,8 +105,8 @@ else:
     ON_HEROKU = False
 BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
 FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else (APP_NAME or '') + '.herokuapp.com'
-URL = "https://movies-da0aef83f7bf.herokuapp.com".format(FQDN) if ON_HEROKU or NO_PORT else \
-    "https://movies-da0aef83f7bf.herokuapp.com/".format(FQDN, PORT)
+URL = "https://mlfiletolink-6e3e574cf9c1.herokuapp.com/".format(FQDN) if ON_HEROKU or NO_PORT else \
+    "https://mlfiletolink-6e3e574cf9c1.herokuapp.com/".format(FQDN, PORT)
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
 SESSION_NAME = str(environ.get('SESSION_NAME', 'LazyBot'))
@@ -121,9 +121,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
-    URL = "https://moviesuniverse-da0aef83f7bf.herokuapp.com/".format(FQDN)
+    URL = "https://mlfiletolink-6e3e574cf9c1.herokuapp.com/".format(FQDN)
 else:
-    URL = "https://moviesuniverse-da0aef83f7bf.herokuapp.com/".format(FQDN)
+    URL = "https://mlfiletolink-6e3e574cf9c1.herokuapp.com/".format(FQDN)
 
 
 
