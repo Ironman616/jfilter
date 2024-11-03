@@ -1338,7 +1338,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[
             InlineKeyboardButton('🍂 OTT & FILM UPDATES 🍂', url="https://t.me/+BlCefUEEyvdmZjJl")
         ],[
-            InlineKeyboardButton('🍁 Bots Update Channel 🍁', url="https://t.me/MOVIE_LOVERZZ")
+            InlineKeyboardButton('🍁 Bots Update Channel 🍁', url="https://t.me/+bKaEQbdeYnE5Zjhl")
         ],[
             InlineKeyboardButton('🥀 BACKUP CHANNEL 🥀', url="https://t.me/MOVIE_LOVERZZ"),
         ],[
