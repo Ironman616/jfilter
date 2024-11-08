@@ -121,9 +121,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
-    URL = "bots.hostingup.icu:8087".format(FQDN)
+    URL = "bots.hostingup.icu:8087/".format(FQDN)
 else:
-    URL = "bots.hostingup.icu:8087".format(FQDN)
+    URL = "bots.hostingup.icu:8087/".format(FQDN)
 
 
 
