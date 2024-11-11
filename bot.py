@@ -10,6 +10,9 @@ from pathlib import Path
 from pyrogram import idle
 import logging
 import logging.config
+import uvloop
+
+uvloop.install() 
 
 # Get logging configurations
 logging.config.fileConfig('logging.conf')
