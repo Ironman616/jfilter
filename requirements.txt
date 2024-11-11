@@ -12,6 +12,7 @@ shortzy
 datetime 
 pytz 
 aiohttp
+uvloop
 
 #---master---# 
 #Telethroid==0.0.10 
