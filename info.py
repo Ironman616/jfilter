@@ -49,9 +49,9 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://johnwickk11220:3vsFKjA8I5Cljc8K@cluster0.uevz8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "johnwickk11220")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Movie_Loverz')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://batmann:saBVJFEqhb3rk5KQ@cluster0.az5fg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "batmann")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_filez')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
